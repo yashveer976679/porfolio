@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yashveer Singh - Portfolio</title>
+  <style>
+    /* Reset default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Set dark background with a background image */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('dark_background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #e0e0e0;
+      font-size: 18px; /* Increased font size */
+    }
+
+    /* Header with profile image and navigation */
+    header {
+      background-color: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .profile-pic {
+      width: 180px; /* Increased size */
+      height: 180px; /* Increased size */
+      border-radius: 50%;
+      border: 3px solid #ffa500;
+      margin-bottom: 1rem;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: #ffa500;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+      font-size: 1.1em;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    /* Reusable section style */
+    .section {
+      background-color: rgba(0, 0, 0, 0.7);
+      margin: 2rem;
+      padding: 2rem;
+      border-radius: 12px;
+    }
+
+    h2 {
+      color: #ffa500;
+      margin-bottom: 1rem;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    /* Skills styling */
+    .skills ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 0.5rem;
+      list-style: none;
+    }
+
+    .skills li {
+      background-color: rgba(255, 165, 0, 0.1);
+      padding: 0.5rem;
+      border-left: 4px solid #ffa500;
+    }
+
+    /* Certificates grid */
+    .certificates {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .certificates img {
+      width: 180px;
+      border-radius: 10px;
+      border: 2px solid #ffa500;
+      transition: transform 0.3s;
+    }
+
+    .certificates img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: rgba(0, 0, 0, 0.8);
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section with Profile -->
+  <header>
+    <img src="profile.jpeg" alt="Profile Picture" class="profile-pic">
+  <br>  <h1>Yashveer Singh</h1>
+    <p>Frontend Developer | College student currently pursuing BCA(AI&ML) </p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certificates">Certificates</a>
+    </nav>
+  </header>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <p>1. <strong>Portfolio Website</strong>: Built with HTML, CSS, and JS to showcase work.</p>
+    <p>2. <strong>Book reading Website</strong>: Using HTML.</p>
+    <p>3. <strong>Quiz Game</strong>: JavaScript-based interactive quiz application.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5 & CSS3</li>
+      <li>JavaScript (ES6+)</li>
+      <li>React.js</li>
+      <li>Responsive Design</li>
+      <li>Git & GitHub</li>
+      <li>C</li>
+  	<li>JAVA</li>
+    <li>SQL</li>
+<li>Video Editing</li>
+    </ul>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="section">
+    <h2>Certificates</h2>
+    <div class="certificates">
+      <img src="cert1.jpg" alt="Certificate 1">
+      <img src="cert2.jpg" alt="Certificate 2">
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+   made by Yashveer.
+  </footer>
+</body>
+</html>
